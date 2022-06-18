@@ -1,0 +1,24 @@
+.row{
+    max-width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .col-1-4{
+        width: calc(100%-3*4rem/4);
+        margin-right: 0.6rem;
+
+    }
+}
+
+.grid{
+    display: flex;
+    max-width: 100%;
+     margin-left: 5rem;
+
+    .col1-4{
+        width: calc(100%-3*4rem/4);
+         &:not(:last-child){
+             margin-right: 1rem;
+         }
+    }
+}

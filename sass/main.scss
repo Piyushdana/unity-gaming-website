@@ -1,0 +1,32 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color:  rgba(41,45,53,255);
+
+}
+.container{
+     
+    background-color: white;
+    margin: auto 4rem;
+    margin-top: 5rem;
+    min-height: 50vh;
+    background-color:  rgba(30,31,38,255);
+    border-radius: 2rem;
+}
+
+
+
+@import "sass/left"  ;
+@import "sass/right"  ;
+@import "sass/grid"  ;
+
+ 
